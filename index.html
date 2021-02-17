@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="autocomplete" content="off">
+    <title>Designer</title>
+	<link href="css/default.css" rel="stylesheet" type="text/css">
+	<link href="css/cont.css" rel="stylesheet" type="text/css">
+	<link href="css/animated.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/menu_scroll.js"></script> 
+	<script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $('.mySlides1').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          dots:true
+        });
+	});
+	</script>
+</head>
+
+<body> 
+    <!-- HEADER S-->
+    <header class="wrap_header">
+		<div class="header">
+			<ul>
+				<li><a href="#">INTRO</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">WORKS</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
+		</div>
+    </header>
+    <!-- HEADER E-->
+
+	<!-- WRAP CONTAINER S -->
+	<div id="wrap_container"> 
+
+		<div class="content">
+			<div class="cnt01">
+
+				<!-- WRAP_mySlides S -->
+				<div class="mySlides">			
+					<div class="m_slogan" >
+						<h3>LEARNING & COMMUNITY</h3>	
+						<p>다양한 SI프로젝트 경험을 바탕으로<br /><span>시스템 통합, 솔루션 개발, 컨설팅, <br />소프트웨어 개발 사업분야를 수행하고 있습니다</span></p>
+					</div>
+					<div class="mySlides1">
+						<div class="m_bak" style="background: url(images/index_b1.jpg) 50% center / cover no-repeat;"></div>
+						<div class="m_bak" style="background: url(images/index_b2.jpg) 50% center / cover no-repeat;"></div>
+					</div>	
+				</div>
+				<!-- WRAP_mySlides E -->
+
+			</div>
+			<div class="cnt02">
+				<!-- ABOUT S -->
+				<div class="page_area">
+					<h2 class="left cl_white">ABOUT</h2>
+				</div>
+				<!-- ABOUT E -->
+			</div>
+			<div class="cnt03">
+				<!-- WORK S -->
+				<div class="page_area">
+					<h2 class="center">
+						WORKS
+						<span>사람을 존경하라, 그러면 그는 더 많은 일을 해 낼 것이다.</span>
+					</h2>
+
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a href="http://www.kric.go.kr/" target="_blank">
+									<p class="thumb"><img src="images/work01.jpg" alt=""></p>
+									<p class="subject">철도산업정보센터</p>
+									<p class="summery">반응형 / WEB DESIGN / 2020 </p>
+								</a>						
+							</div>											
+							
+							<div class="swiper-slide">
+								<a href="http://www.peptron.co.kr" target="_blank">
+									<p class="thumb"><img src="images/work03.jpg" alt=""></p>
+									<p class="subject">펩트론(국/영)</p>
+									<p class="summery">반응형 / WEB DESIGN / 2019 </p>
+								</a>						
+							</div>
+							
+							<div class="swiper-slide">
+								<a href="http://www.idospace.or.kr/" target="_blank">
+									<p class="thumb"><img src="images/work05.jpg" alt=""></p>
+									<p class="subject">인터넷 꿈희망터 iDOS</p>
+									<p class="summery">반응형 / WEB DESIGN / 2018</p>
+								</a>	
+							</div>
+
+							<div class="swiper-slide">
+								<a href="http://www.greendream.or.kr" target="_blank">
+									<p class="thumb"><img src="images/work04.jpg" alt=""></p>
+									<p class="subject">푸른꿈청소년상담원</p>
+									<p class="summery">반응형 / WEB DESIGN / 2019</p>
+								</a>	
+							</div>
+						
+
+							<div class="swiper-slide">
+								<a href="http://www.kric.go.kr/jsp/biz/main.jsp" target="_blank">
+									<p class="thumb"><img src="images/work02.jpg" alt=""></p>
+									<p class="subject">철도산업정보센터-철도Biz</p>
+									<p class="summery">반응형 / WEB DESIGN / 2020</p>
+								</a>	
+							</div>	
+						
+						</div>
+						<!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+					</div>
+				  
+					<!-- Initialize Swiper -->
+					<script>
+						var swiper = new Swiper('.swiper-container', {
+							slidesPerView: 3,
+							spaceBetween: 30,
+							pagination: {
+							el: '.swiper-pagination',
+							clickable: true,
+							},
+						});
+					</script>
+
+				</div>
+				<!-- WORK E -->
+			</div>
+			<div class="cnt04">
+				<!-- CONTACT S -->
+				<div class="page_area">
+					<h2  class="right cl_white">CONTACT</h2>
+				</div>
+				<!-- CONTACT E -->
+			</div>
+		</div>
+
+	</div>
+	<!-- WRAP CONTAINER E -->
+
+
+</body>
+</html>
