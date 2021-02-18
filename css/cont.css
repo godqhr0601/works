@@ -4,12 +4,12 @@
 .hidden-lg{display:none !important;}
 
 /* HEADER */
-h1{position:fixed;z-index:9999;color:#fff; padding:0 8%;  line-height:58px; font-family:'Poppins', sans-serif; font-weight:500; font-size:20px; letter-spacing:1px;}
-.header{position:fixed;z-index:999;top:0;width:100%;background:rgba(0,0,0,.8); }
+h1{position:fixed;z-index:9999;color:#fff;padding:0 8%; line-height:58px;font-family:'Poppins', sans-serif;font-weight:500;font-size:20px;letter-spacing:1px;}
+.header{position:fixed;z-index:999;top:0;width:100%;background:rgba(0,0,0,.8);}
 .header ul:after{content:"";display:block;clear:both}
-.header ul {padding-right:8%; float:right;}
-.header ul li{float:left;box-sizing:border-box; padding:0 20px}
-.header ul li a{display:block;text-align:center;height:60px; line-height:60px;font-size:16px;text-decoration:none;color:#b8b8b8; font-family:'Poppins', sans-serif; font-weight:600; letter-spacing:3px;}
+.header ul {padding-right:8%;float:right;}
+.header ul li{float:left;box-sizing:border-box;padding:0 20px}
+.header ul li a{display:block;text-align:center;height:60px;line-height:60px;font-size:16px;text-decoration:none;color:#b8b8b8;font-family:'Poppins', sans-serif;font-weight:600;letter-spacing:3px;}
 .header ul li.on a{color:#FFF;}
 
 /* WRAP CONTAINER */
@@ -18,11 +18,10 @@ h1{position:fixed;z-index:9999;color:#fff; padding:0 8%;  line-height:58px; font
 
 /* CONTENT */
 .content{position:relative;}
-.content .cnt01{background-color:#2d303f}
-.content .cnt02{background-color:#2d303f}
-.content .cnt03{background-color:#9cb9c2}
-.content .cnt04{background-color:#FFF}
-
+.content .cnt01{background:#2d303f}
+.content .cnt03{background:#2d303f}
+.content .cnt02{background:#383439;}
+.content .cnt04{background:#FFF}
 
 /* INTRO */
 .mySlides{width:100%;position:relative;}
@@ -43,54 +42,82 @@ h1{position:fixed;z-index:9999;color:#fff; padding:0 8%;  line-height:58px; font
 .slick-loading .slick-slide{visibility:hidden;}
 .slick-vertical .slick-slide{display:block;height:auto;border:none;}
 .slick-arrow.slick-hidden{display:none;}
-.slick-prev{cursor:pointer;display:inline-block;z-index:9999;background:url(../images/arr_visual_prev1.png) no-repeat center;height:70px;width:70px;font-size:0;border:0;position:absolute;top:50%;margin-top:-40px;left:40px;border-radius:50%;}
-.slick-next{cursor:pointer;display:inline-block;z-index:9999;background:url(../images/arr_visual_next1.png) no-repeat center;height:70px;width:70px;font-size:0;border:0;position:absolute;top:50%;margin-top:-40px;right:40px;border-radius:50%;}
+.slick-prev{cursor:pointer;display:inline-block;z-index:9999;background:url(../images/arr_visual_prev1.png) no-repeat center;height:2px;width:2px;font-size:0;border:0;position:absolute;top:50%;margin-top:-40px;left:40px;border-radius:50%;}
+.slick-next{cursor:pointer;display:inline-block;z-index:9999;background:url(../images/arr_visual_next1.png) no-repeat center;height:2px;width:2px;font-size:0;border:0;position:absolute;top:50%;margin-top:-40px;right:40px;border-radius:50%;}
 .slick-dots{position:absolute;bottom:30px;left:50%;width:100%;z-index:100;text-align:center;margin-left:-24px}
 .slick-dots li{float:left;font-size:0;cursor:pointer;height:20px;width:20px;margin:0 2px;display:inline-block;transition:background-color 0.6s ease;background:url(../images/dot_off.png) no-repeat center;}
 .slick-dots button{display:none;padding:0;margin:0;}
 .slick-dots .slick-active{background:url(../images/dot_on.png) no-repeat center;}
 .slick-prev:focus{outline:none;}
 .slick-next:focus{outline:none;}
-.m_slogan{position:absolute;text-align:left;color:#fff;margin:0 auto;left:8%; top:25%;z-index:88;}
-.m_slogan{height:auto;word-break:keep-all;display:block; overflow:hidden; }
-.m_slogan h3{opacity:0; font-size:120px;letter-spacing:-2px;margin:0 0 50px; text-shadow:0 1px 1px rgba(0,0,0,.5);line-height:1.2;font-weight:600;font-family:'Poppins', sans-serif;}
-.m_slogan h3 span{font-weight:600; font-family:'Poppins', sans-serif; display:block;}
+.m_slogan{position:absolute;text-align:left;color:#fff;margin:0 auto;left:8%;top:25%;z-index:88;}
+.m_slogan{height:auto;word-break:keep-all;display:block;overflow:hidden;}
+.m_slogan h3{opacity:0;font-size:120px;letter-spacing:-2px;margin:0 0 50px;text-shadow:0 1px 1px rgba(0,0,0,.5);line-height:1.2;font-weight:600;font-family:'Poppins', sans-serif;}
+.m_slogan h3 span{font-weight:600;font-family:'Poppins', sans-serif;display:block;}
 .m_slogan h3{transition-timing-function:ease-in;-webkit-animation:ani_effect 1s;animation:ani_effect 1s;animation-fill-mode:forwards;animation-delay:0.5s;}
-.m_slogan p{opacity:0;position:relative;font-size:28px;text-shadow:0 1px 1px rgba(0,0,0,.5); font-family:'Poppins', sans-serif;}
-.m_slogan p span{display:block; font-size:20px; padding-top:5px; }
+.m_slogan p{opacity:0;position:relative;font-size:28px;text-shadow:0 1px 1px rgba(0,0,0,.5);font-family:'Poppins', sans-serif;}
+.m_slogan p span{display:block;font-size:20px;padding-top:5px;}
 .m_slogan p{transition-timing-function:ease-in;-webkit-animation:ani_effect 1s;animation:ani_effect 1s;animation-fill-mode:forwards;animation-delay:0.8s;}
 .m_slogan p br{display:none;}
 
 /* SUB CONTENTS */
-.content{margin:0 auto; position: relative; }
+.content{position: relative;margin:0 auto;}
 
-/*  PAGE :기본  */
-.page_area{padding:8%;}
-.about_bg:before{content:'';display:block;position:absolute;top:0;left:0;width:50%;height:0;background-size:cover !important;}
+/* TITLE */
+h2 {font-family:'Poppins', sans-serif;font-weight:600;font-size:80px; line-height:100px;margin-bottom:50px}
+h2 span{display:block;font-size:20px; line-height:50px;}
 
-/* 타이틀 */
-.page_area h2 {position: relative; font-size: 6em; font-family:'Poppins', sans-serif; font-weight:600; color:#000; margin-bottom:4%}
-.page_area h2 span{display:block; font-size:20px;}
+/* ABOUT */
+.about_page{position: relative;padding:8%;}
+.about_page .about_img{position: relative;position:absolute;right:8%;padding:20px;background: #fff;}
+.about_page .about_img p{padding-bottom:20px;text-align:right;color:#aaa;font-family:'Poppins', sans-serif;letter-spacing:3px;}
+.about_page .about_img img{width:350px}
+.about_page .about_txt{color:#fff;width:calc(100% - 450px);}
+
+/*  SKILL  */
+.skill_bg {float:left;width:50%;height:100%;background:url(../images/skill_bg.jpg) center;background-size:cover!important;}
+.skill_txt {padding:6% 8% 6% 55%;color:#fff;}
+.skill_txt strong{display:block; font-size:28px; font-weight:600; margin-bottom:20px}
+.skill_txt .inner{position: relative; padding-bottom:20px}
+.skill_txt .inner img{position:absolute; width:50px}
+.skill_txt .inner .detail{font-size: 12px; color: #fff; display: inline-block; margin:10px 0 0 84px; line-height:20px}
+
+progress{margin:5px 0 0 84px; height: 10px; width:calc(100% - 84px); display: inline-block; border-radius: 5px; border: none;}
+/* IE10 */
+progress {color:#d70707;}
+/* Firefox */
+progress::-moz-progress-bar{background:#d70707;}
+/* Chrome */
+progress::-webkit-progress-value {background:#d70707;}
+/* Polyfill */
+progress[aria-valuenow]:before{background:#d70707;}
+/* Firefox , Polyfill */
+progress,progress[role][aria-valuenow] {background: #bcbcbc; !important;}
+/* Chrome */
+progress::-webkit-progress-bar {background: #bcbcbc;}
 
 /* WORK */
+.work_page{position: relative;padding:7% 8%;}
 .swiper-wrapper {position: relative;width: 100%;height: 100%;z-index: 1;display: flex;transition-property: transform;box-sizing: content-box;}
 .swiper-container-pointer-events {touch-action: pan-y;}
-.swiper-container {margin-left: auto;margin-right: auto;position: relative;overflow: hidden;list-style: none;padding: 0;z-index: 1; width:100%;}
-
-.swiper-slide {float:left; font-size: 18px; padding:0;}
+.swiper-container {margin-left: auto;margin-right: auto;position: relative;overflow: hidden;list-style: none;padding: 0;z-index: 1;width:100%;}
+.swiper-slide {float:left;font-size: 18px;padding:0;}
 .swiper-slide {flex-shrink: 0;width: 100%;height: 100%;position: relative;transition-property: transform;}
-.swiper-slide .thumb {background: #ebebeb;  margin:0 auto; padding:10%; text-align:center}
+.swiper-slide .thumb {background: #ebebeb; margin:0 auto;padding:10%;text-align:center}
 .swiper-slide .thumb img {width:100%;}
-.swiper-slide .subject {padding:20px 0 5px; font-size:18px; font-weight: bold; color:#1a3b4a; }
+.swiper-slide .subject {padding:20px 0 5px;font-size:18px;font-weight: bold;color:#1a3b4a;}
 .swiper-slide .subject br{display:none;}
-.swiper-slide .summery {font-size:13px; color:#AAAAAA;}
-.swiper-slide .summery span{display:inline-block; position:relative; padding-left:15px; margin-left:10px}
+.swiper-slide .summery {font-size:13px;color:#AAAAAA;}
+.swiper-slide .summery span{display:inline-block;position:relative;padding-left:15px;margin-left:10px}
 .swiper-slide .summery span:before{display:inline-block;position:absolute;top:4px;left:1px;width:1px;height:12px;background:#ccc;content:'';}
-
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {margin: 0 4px;}
-.swiper-pagination {text-align:center; margin:40px auto;}
+.swiper-pagination {text-align:center;margin:40px auto;}
 .swiper-pagination-bullet {width: 15px;height: 15px;display: inline-block;border-radius: 50%;background: #000;opacity: .2;}
-.swiper-pagination-bullet-active {background: #df0000; opacity: 1;}
+.swiper-pagination-bullet-active {background: #df0000;opacity: 1;}
+
+/* CONTACT */
+.contact_page {background:#848484; text-align:center; padding:2% 0; color:#fff; line-height:30px; font-size:15px}
+.contact_page span{padding-left:8px}
 
 
 /** 1000px 시작 **/
@@ -104,7 +131,7 @@ h1{position:fixed;z-index:9999;color:#fff; padding:0 8%;  line-height:58px; font
 
 /** 780px 시작 **/
 @media (max-width:780px) {	
-	
+
 	/* HIDDEN */
 	.hidden-xs{display:none !important;}
 	.hidden-lg{display:block !important;}
@@ -113,28 +140,46 @@ h1{position:fixed;z-index:9999;color:#fff; padding:0 8%;  line-height:58px; font
 	h1{display:none}
 	.header ul {padding-right:3%;}
 	.header ul li{padding:0 15px}
-	.header ul li a{font-size:15px;  letter-spacing:0px;}
+	.header ul li a{font-size:15px;letter-spacing:0px;}
 	
 	/* INTRO */
 	.m_slogan{top:35%;}
-	.m_slogan h3{font-size:45px;font-weight:500; margin:0 0 20px;}
+	.m_slogan h3{font-size:45px;font-weight:500;margin:0 0 20px;}
 	.m_slogan h3 span{display:block;}
 	.m_slogan p{position:relative;font-size:16px;}
-	.m_slogan p span{font-size:15px; padding-top:5px; }
+	.m_slogan p span{font-size:15px;padding-top:5px;}
 	.m_slogan p br{display:block;}
-	
-	.slick-prev{height:40px;width:40px;margin-top:-20px;left:10px;}
-	.slick-next{height:40px;width:40px;margin-top:-20px;right:10px;}
 
-	/* 타이틀 */
-	.page_area{padding:25% 5% 10%;}
-	.page_area h2 {font-size: 30px;margin-bottom:30px}
-	.page_area h2 span{display:block; font-size:15px;}
+	/* TITLE */
+	h2 {font-size:40px;line-height:60px; margin-bottom:10px}
+	h2 span{display:block;font-size:15px; line-height:20px}
 
-	.swiper-slide .subject {padding:20px 0 5px; font-size:14px;}
+	/* ABOUT */	
+	.about_page{padding:25% 5% 0;}
+	.about_page .about_img {position: static;padding:10px;width:140px;margin:20px 0}
+	.about_page .about_img p{display:none;}
+	.about_page .about_img img{width:100%}
+	.about_page .about_txt{color:#fff;width:100%;}
+
+	/* WORK */
+	.work_page{padding:25% 5% 0;}
+	.swiper-wrapper {padding-top:20px}
+	.swiper-slide .subject {padding:20px 0 5px;font-size:14px;}
 	.swiper-slide .subject br{display:block;}
-	.swiper-slide .summery span{display:block; padding-left:0; margin-left:0}
+	.swiper-slide .summery span{display:block;padding-left:0;margin-left:0}
 	.swiper-slide .summery span:before{display:none;}
+
+	/*  SKILL  */
+	.skill_bg {width:0%;}
+	.skill_txt {padding:26% 5% 6% 5%;line-height:30px}
+	progress{display:none;}
+	.skill_txt strong{font-size:20px; margin-bottom:10px}
+	.skill_txt .inner .detail{font-size: 11px; color: #fff; display: inline-block; margin:0px 0 0 60px; line-height:20px}
+	.skill_txt .inner{position: relative; padding-bottom:20px}
+
+	/* CONTACT */
+	.contact_page {padding:4% 0; line-height:20px; font-size:12px}
+	
 
 }
 /** 780px 끝 **/
@@ -144,7 +189,7 @@ h1{position:fixed;z-index:9999;color:#fff; padding:0 8%;  line-height:58px; font
 /** 400px 시작 **/
 @media (max-width:400px) {	
 	
-	.swiper-slide .subject {padding:20px 0 5px; font-size:12px;}
+	.swiper-slide .subject {padding:20px 0 5px;font-size:12px;}
 	.swiper-slide .summery span{font-size:11px;}
 
 }
