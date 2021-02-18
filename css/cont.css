@@ -174,8 +174,8 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 	.skill_txt {padding:26% 5% 6% 5%;line-height:30px}
 	progress{display:none;}
 	.skill_txt strong{font-size:20px; margin-bottom:10px}
-	.skill_txt .inner .detail{font-size: 11px; color: #fff; display: inline-block; margin:0px 0 0 60px; line-height:20px}
-	.skill_txt .inner{position: relative; padding-bottom:20px}
+	.skill_txt .inner .detail{font-size: 11px; margin:0 0 0 60px; line-height:20px}
+	.skill_txt .inner{padding-bottom:30px}
 
 	/* CONTACT */
 	.contact_page {padding:4% 0; line-height:20px; font-size:12px}
@@ -191,6 +191,7 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 	
 	.swiper-slide .subject {padding:20px 0 5px;font-size:12px;}
 	.swiper-slide .summery span{font-size:11px;}
+	.skill_txt .inner{padding-bottom:15px}
 
 }
 /** 400px 끝 **/
