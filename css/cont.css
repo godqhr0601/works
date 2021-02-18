@@ -72,16 +72,16 @@ h2 span{display:block;font-size:20px; line-height:50px;}
 .about_page .about_img{position: relative;position:absolute;right:8%;padding:20px;background: #fff;}
 .about_page .about_img p{padding-bottom:20px;text-align:right;color:#aaa;font-family:'Poppins', sans-serif;letter-spacing:3px;}
 .about_page .about_img img{width:350px}
-.about_page .about_txt{color:#fff;width:calc(100% - 450px);}
-
+.about_page .about_txt{width:calc(100% - 450px);}
+.about_page .about_txt strong{color:#fff; display:block; font-size:28px; font-weight:600; margin-bottom:10px}
+.about_page .about_txt p{color:#fff; font-size:15px;}
 /*  SKILL  */
 .skill_bg {float:left;width:50%;height:100%;background:url(../images/skill_bg.jpg) center;background-size:cover!important;}
 .skill_txt {padding:6% 8% 6% 55%;color:#fff;}
 .skill_txt strong{display:block; font-size:28px; font-weight:600; margin-bottom:20px}
-.skill_txt .inner{position: relative; padding-bottom:20px}
+.skill_txt .inner{position: relative; margin-bottom:40px}
 .skill_txt .inner img{position:absolute; width:50px}
 .skill_txt .inner .detail{font-size: 12px; color: #fff; display: inline-block; margin:10px 0 0 84px; line-height:20px}
-
 progress{margin:5px 0 0 84px; height: 10px; width:calc(100% - 84px); display: inline-block; border-radius: 5px; border: none;}
 /* IE10 */
 progress {color:#d70707;}
@@ -120,13 +120,18 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 .contact_page span{padding-left:8px}
 
 
-/** 1000px 시작 **/
-@media (max-width:1000px) {	
+/** 1200px 시작 **/
+@media (max-width:1200px) {	
 
 	.m_slogan h3{font-size:60px;}
 
+	.skill_bg {width:30%;}
+	.skill_txt {padding:8% 5% 8% 35%;}
+	progress{display:none;}
+	
+
 }
-/** 1000px 끝 **/
+/** 1200px 끝 **/
 
 
 /** 780px 시작 **/
@@ -160,7 +165,16 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 	.about_page .about_img p{display:none;}
 	.about_page .about_img img{width:100%}
 	.about_page .about_txt{color:#fff;width:100%;}
+	.about_page .about_txt strong{ font-size:18px;}
+	.about_page .about_txt p{font-size:13px;}
 
+	/*  SKILL  */
+	.skill_bg {width:0%;}
+	.skill_txt {padding:26% 5% 6% 5%;}	
+	.skill_txt strong{font-size:20px; margin-bottom:15px}
+	.skill_txt .inner img{position:absolute; width:45px}
+	.skill_txt .inner .detail{font-size: 11px; margin:5px 0 0 60px; line-height:20px}
+	
 	/* WORK */
 	.work_page{padding:25% 5% 0;}
 	.swiper-wrapper {padding-top:20px}
@@ -169,13 +183,6 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 	.swiper-slide .summery span{display:block;padding-left:0;margin-left:0}
 	.swiper-slide .summery span:before{display:none;}
 
-	/*  SKILL  */
-	.skill_bg {width:0%;}
-	.skill_txt {padding:26% 5% 6% 5%;line-height:30px}
-	progress{display:none;}
-	.skill_txt strong{font-size:20px; margin-bottom:10px}
-	.skill_txt .inner .detail{font-size: 11px; margin:0 0 0 60px; line-height:20px}
-	.skill_txt .inner{padding-bottom:30px}
 
 	/* CONTACT */
 	.contact_page {padding:4% 0; line-height:20px; font-size:12px}
@@ -189,9 +196,11 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 /** 400px 시작 **/
 @media (max-width:400px) {	
 	
+	.skill_txt .inner{margin-bottom:30px}
+
 	.swiper-slide .subject {padding:20px 0 5px;font-size:12px;}
-	.swiper-slide .summery span{font-size:11px;}
-	.skill_txt .inner{padding-bottom:15px}
+	.swiper-slide .summery span{font-size:11px;}	
+
 
 }
 /** 400px 끝 **/
