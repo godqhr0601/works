@@ -4,11 +4,13 @@
 .hidden-lg{display:none !important;}
 
 /* HEADER */
-.header{position:fixed;z-index:9999999;top:0;width:100%;background:rgba(0,0,0,.8); }
+h1{position:fixed;z-index:9999;color:#fff; padding:0 8%;  line-height:58px; font-family:'Poppins', sans-serif; font-weight:500; font-size:20px; letter-spacing:1px;}
+.header{position:fixed;z-index:999;top:0;width:100%;background:rgba(0,0,0,.8); }
 .header ul:after{content:"";display:block;clear:both}
-.header ul li{float:left;box-sizing:border-box; width:25%}
-.header ul li a{display:block;text-align:center;height:60px; line-height:60px;font-size:18px;text-decoration:none;color:#fff; font-family:'Poppins', sans-serif; font-weight:600; letter-spacing:3px;}
-.header ul li.on a{color:#b8b8b8;}
+.header ul {padding-right:8%; float:right;}
+.header ul li{float:left;box-sizing:border-box; padding:0 20px}
+.header ul li a{display:block;text-align:center;height:60px; line-height:60px;font-size:16px;text-decoration:none;color:#b8b8b8; font-family:'Poppins', sans-serif; font-weight:600; letter-spacing:3px;}
+.header ul li.on a{color:#FFF;}
 
 /* WRAP CONTAINER */
 #wrap_container{margin:0 auto;}
@@ -16,10 +18,11 @@
 
 /* CONTENT */
 .content{position:relative;}
-.content .cnt01{background-color:#fff}
-.content .cnt02{background-color:#848484}
-.content .cnt03{background-color:#FFF}
-.content .cnt04{background-color:#2d303f}
+.content .cnt01{background-color:#2d303f}
+.content .cnt02{background-color:#2d303f}
+.content .cnt03{background-color:#9cb9c2}
+.content .cnt04{background-color:#FFF}
+
 
 /* INTRO */
 .mySlides{width:100%;position:relative;}
@@ -66,7 +69,7 @@
 .about_bg:before{content:'';display:block;position:absolute;top:0;left:0;width:50%;height:0;background-size:cover !important;}
 
 /* 타이틀 */
-.page_area h2 {position: relative; font-size: 80px; font-family:'Poppins', sans-serif; font-weight:600; color:#000; margin-bottom:4%}
+.page_area h2 {position: relative; font-size: 6em; font-family:'Poppins', sans-serif; font-weight:600; color:#000; margin-bottom:4%}
 .page_area h2 span{display:block; font-size:20px;}
 
 /* WORK */
@@ -90,6 +93,15 @@
 .swiper-pagination-bullet-active {background: #df0000; opacity: 1;}
 
 
+/** 1000px 시작 **/
+@media (max-width:1000px) {	
+
+	.m_slogan h3{font-size:60px;}
+
+}
+/** 1000px 끝 **/
+
+
 /** 780px 시작 **/
 @media (max-width:780px) {	
 	
@@ -98,13 +110,14 @@
 	.hidden-lg{display:block !important;}
 	
 	/* HEADER */
-
-	.header ul:after{content:"";display:block;clear:both}
+	h1{display:none}
+	.header ul {padding-right:3%;}
+	.header ul li{padding:0 15px}
 	.header ul li a{font-size:15px;  letter-spacing:0px;}
 	
 	/* INTRO */
 	.m_slogan{top:35%;}
-	.m_slogan h3{font-size:40px;font-weight:500; margin:0 0 20px;}
+	.m_slogan h3{font-size:45px;font-weight:500; margin:0 0 20px;}
 	.m_slogan h3 span{display:block;}
 	.m_slogan p{position:relative;font-size:16px;}
 	.m_slogan p span{font-size:15px; padding-top:5px; }
@@ -128,13 +141,13 @@
 
 
 
-/** 380px 시작 **/
-@media (max-width:380px) {	
+/** 400px 시작 **/
+@media (max-width:400px) {	
 	
 	.swiper-slide .subject {padding:20px 0 5px; font-size:12px;}
 	.swiper-slide .summery span{font-size:11px;}
 
 }
-/** 380px 끝 **/
+/** 400px 끝 **/
 
 
