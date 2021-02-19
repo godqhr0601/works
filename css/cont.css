@@ -66,7 +66,7 @@ h2 span{display:block;font-size:20px; line-height:50px;}
 h3{display:block; color:#fff; font-size:20px; font-weight:500; margin-bottom:10px }
 
 /* ABOUT */
-.about_page{position: relative;padding:10% 5%;}
+.about_page{position: relative;padding:10% 5% 0;}
 .about_page .about_img{position:absolute;right:8%; padding:20px;background: #fff; width:380px; }
 .about_page .about_img .name{padding-top:15px;text-align:right;color:#000;font-family:'Poppins', sans-serif;letter-spacing:3px;}
 .about_page .about_img img{width:100%}
@@ -75,7 +75,7 @@ h3{display:block; color:#fff; font-size:20px; font-weight:500; margin-bottom:10p
 
 /*  SKILL  */
 .skill_bg {float:left;width:50%;height:100%;background:url(../images/skill_bg.jpg) center;background-size:cover!important;}
-.skill_txt {padding:7% 5% 0 55%;color:#fff; }
+.skill_txt {padding:5% 5% 0 55%;color:#fff; }
 .skill_txt h3{font-size:26px; font-weight:600; margin-bottom:20px; font-family:'Poppins', sans-serif;}
 .skill_txt .inner{position: relative; min-height:64px; margin-bottom:20px}
 .skill_txt .inner img{position:absolute; width:50px;vertical-align:middle;}
@@ -96,7 +96,7 @@ progress,progress[role][aria-valuenow] {background: #bcbcbc; !important;}
 progress::-webkit-progress-bar {background: #bcbcbc;}
 
 /* WORK */
-.work_page{position: relative;padding:7% 8%;}
+.work_page{position: relative;padding:5% 5% 0;}
 .swiper-wrapper {position: relative;width: 100%;height: 100%;z-index: 1;display: flex;transition-property: transform;box-sizing: content-box;}
 .swiper-container-pointer-events {touch-action: pan-y;}
 .swiper-container {margin-left: auto;margin-right: auto;position: relative;overflow: hidden;list-style: none;padding: 0;z-index: 1;width:100%;}
@@ -121,18 +121,19 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 
 /** 1200px 시작 **/
 @media (max-width:1200px) {	
+	
+	.space_top{margin-top:20px}
 
 	.m_slogan{top:35%;}	
 	.m_slogan h3{font-size:80px;}
 	
-	.about_page{padding:15% 5%;}
-
-	.space_top{margin-top:20px}
-
-	.about_page .about_img{width:300px; }
+	.about_page{padding:15% 5% 0;}
+	.about_page .about_img{width:300px;}
 
 	.skill_bg {width:30%;}
 	.skill_txt {padding:10% 5% 0 35%;}
+
+	.work_page{padding:10% 5% 0;}
 
 }
 /** 1200px 끝 **/
@@ -162,7 +163,7 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 
 	/* TITLE */
 	h2 {font-size:40px;line-height:50px; margin-bottom:10px}
-	h2 span{display:block;font-size:15px; line-height:20px}
+	h2 span{display:block;font-size:14px; line-height:20px;}
 	
 	/* ABOUT */	
 	.about_page{padding:80px 5% 0;}
