@@ -2,12 +2,13 @@
 
 /* HIDDEN */
 .hidden-lg{display:none !important;}
+.space_top{margin-top:40px}
 
 /* HEADER */
-h1{position:fixed;z-index:9999;color:#fff;padding:0 8%; line-height:58px;font-family:'Poppins', sans-serif;font-weight:500;font-size:20px;letter-spacing:1px;}
+h1{position:fixed;z-index:9999;color:#fff;padding:0 5%; line-height:58px;font-family:'Poppins', sans-serif;font-weight:500;font-size:20px;letter-spacing:1px;}
 .header{position:fixed;z-index:999;top:0;width:100%;background:rgba(0,0,0,.8);}
 .header ul:after{content:"";display:block;clear:both}
-.header ul {padding-right:8%;float:right;}
+.header ul {padding-right:5%;float:right;}
 .header ul li{float:left;box-sizing:border-box;padding:0 20px}
 .header ul li a{display:block;text-align:center;height:60px;line-height:60px;font-size:16px;text-decoration:none;color:#b8b8b8;font-family:'Poppins', sans-serif;font-weight:600;letter-spacing:3px;}
 .header ul li.on a{color:#FFF;}
@@ -50,39 +51,37 @@ h1{position:fixed;z-index:9999;color:#fff;padding:0 8%; line-height:58px;font-fa
 .slick-dots .slick-active{background:url(../images/dot_on.png) no-repeat center;}
 .slick-prev:focus{outline:none;}
 .slick-next:focus{outline:none;}
-.m_slogan{position:absolute;text-align:left;color:#fff;margin:0 auto;left:8%;top:25%;z-index:88;}
-.m_slogan{height:auto;word-break:keep-all;display:block;overflow:hidden;}
+.m_slogan{position:absolute;text-align:left;color:#fff;margin:0 auto;left:5%;top:25%;z-index:88; height:auto;word-break:keep-all;display:block;overflow:hidden;}
 .m_slogan h3{opacity:0;font-size:120px;letter-spacing:-2px;margin:0 0 50px;text-shadow:0 1px 1px rgba(0,0,0,.5);line-height:1.2;font-weight:600;font-family:'Poppins', sans-serif;}
 .m_slogan h3 span{font-weight:600;font-family:'Poppins', sans-serif;display:block;}
 .m_slogan h3{transition-timing-function:ease-in;-webkit-animation:ani_effect 1s;animation:ani_effect 1s;animation-fill-mode:forwards;animation-delay:0.5s;}
 .m_slogan p{opacity:0;position:relative;font-size:28px;text-shadow:0 1px 1px rgba(0,0,0,.5);font-family:'Poppins', sans-serif;}
-.m_slogan p span{display:block;font-size:20px;padding-top:5px;}
+.m_slogan p span{display:block;font-size:20px;}
 .m_slogan p{transition-timing-function:ease-in;-webkit-animation:ani_effect 1s;animation:ani_effect 1s;animation-fill-mode:forwards;animation-delay:0.8s;}
 .m_slogan p br{display:none;}
 
-/* SUB CONTENTS */
-.content{position: relative;margin:0 auto;}
-
 /* TITLE */
-h2 {font-family:'Poppins', sans-serif;font-weight:600;font-size:80px; line-height:100px;margin-bottom:50px}
+h2{font-family:'Poppins', sans-serif;font-weight:600;font-size:80px; line-height:100px;margin-bottom:40px}
 h2 span{display:block;font-size:20px; line-height:50px;}
+h3{display:block; color:#fff; font-size:20px; font-weight:500; margin-bottom:10px }
 
 /* ABOUT */
-.about_page{position: relative;padding:8%;}
-.about_page .about_img{position: relative;position:absolute;right:8%;padding:20px;background: #fff;}
-.about_page .about_img p{padding-bottom:20px;text-align:right;color:#aaa;font-family:'Poppins', sans-serif;letter-spacing:3px;}
-.about_page .about_img img{width:350px}
+.about_page{position: relative;padding:10% 5%;}
+.about_page .about_img{position:absolute;right:8%; padding:20px;background: #fff; width:380px; }
+.about_page .about_img .name{padding-top:15px;text-align:right;color:#000;font-family:'Poppins', sans-serif;letter-spacing:3px;}
+.about_page .about_img img{width:100%}
 .about_page .about_txt{width:calc(100% - 450px);}
-.about_page .about_txt strong{color:#fff; display:block; font-size:28px; font-weight:600; margin-bottom:10px}
-.about_page .about_txt p{color:#fff; font-size:15px;}
+.about_page .about_txt p{color:#fff;}
+
 /*  SKILL  */
 .skill_bg {float:left;width:50%;height:100%;background:url(../images/skill_bg.jpg) center;background-size:cover!important;}
-.skill_txt {padding:6% 8% 6% 55%;color:#fff;}
-.skill_txt strong{display:block; font-size:28px; font-weight:600; margin-bottom:20px}
-.skill_txt .inner{position: relative; margin-bottom:40px}
-.skill_txt .inner img{position:absolute; width:50px}
-.skill_txt .inner .detail{font-size: 12px; color: #fff; display: inline-block; margin:10px 0 0 84px; line-height:20px}
-progress{margin:5px 0 0 84px; height: 10px; width:calc(100% - 84px); display: inline-block; border-radius: 5px; border: none;}
+.skill_txt {padding:7% 5% 0 55%;color:#fff; }
+.skill_txt h3{font-size:26px; font-weight:600; margin-bottom:20px; font-family:'Poppins', sans-serif;}
+.skill_txt .inner{position: relative; min-height:64px; margin-bottom:20px}
+.skill_txt .inner img{position:absolute; width:50px;vertical-align:middle;}
+.skill_txt .inner p{font-size: 12px; color: #fff; display: inline-block; margin-left:84px;}
+
+progress{margin-left:84px; height: 10px; width:calc(100% - 84px); display: inline-block; border: none;}
 /* IE10 */
 progress {color:#d70707;}
 /* Firefox */
@@ -123,12 +122,17 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 /** 1200px 시작 **/
 @media (max-width:1200px) {	
 
-	.m_slogan h3{font-size:60px;}
+	.m_slogan{top:35%;}	
+	.m_slogan h3{font-size:80px;}
+	
+	.about_page{padding:15% 5%;}
+
+	.space_top{margin-top:20px}
+
+	.about_page .about_img{width:300px; }
 
 	.skill_bg {width:30%;}
-	.skill_txt {padding:8% 5% 8% 35%;}
-	progress{display:none;}
-	
+	.skill_txt {padding:10% 5% 0 35%;}
 
 }
 /** 1200px 끝 **/
@@ -140,10 +144,11 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 	/* HIDDEN */
 	.hidden-xs{display:none !important;}
 	.hidden-lg{display:block !important;}
+	.space_top{margin-top:15px}
 	
 	/* HEADER */
 	h1{display:none}
-	.header ul {padding-right:3%;}
+	.header ul {padding-right:5%;}
 	.header ul li{padding:0 15px}
 	.header ul li a{font-size:15px;letter-spacing:0px;}
 	
@@ -156,33 +161,32 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 	.m_slogan p br{display:block;}
 
 	/* TITLE */
-	h2 {font-size:40px;line-height:60px; margin-bottom:10px}
+	h2 {font-size:40px;line-height:50px; margin-bottom:10px}
 	h2 span{display:block;font-size:15px; line-height:20px}
-
+	
 	/* ABOUT */	
-	.about_page{padding:25% 5% 0;}
+	.about_page{padding:80px 5% 0;}
 	.about_page .about_img {position: static;padding:10px;width:140px;margin:20px 0}
 	.about_page .about_img p{display:none;}
-	.about_page .about_img img{width:100%}
-	.about_page .about_txt{color:#fff;width:100%;}
-	.about_page .about_txt strong{ font-size:18px;}
-	.about_page .about_txt p{font-size:13px;}
+	.about_page .about_txt{width:100%;}
+	.about_page .about_txt p{font-size:12px;}
 
 	/*  SKILL  */
 	.skill_bg {width:0%;}
-	.skill_txt {padding:26% 5% 6% 5%;}	
-	.skill_txt strong{font-size:20px; margin-bottom:15px}
-	.skill_txt .inner img{position:absolute; width:45px}
-	.skill_txt .inner .detail{font-size: 11px; margin:5px 0 0 60px; line-height:20px}
-	
+	.skill_txt {padding:80px 5% 0;}	
+	.skill_txt h3{font-size:20px; margin-bottom:15px}
+	.skill_txt .inner {min-height:57px;}
+	.skill_txt .inner img{width:45px;}
+	.skill_txt .inner p{font-size: 11px; margin:5px 0 0 60px;}
+	progress{display:none;}
+
 	/* WORK */
-	.work_page{padding:25% 5% 0;}
+	.work_page{padding:80px 5% 0;}
 	.swiper-wrapper {padding-top:20px}
 	.swiper-slide .subject {padding:20px 0 5px;font-size:14px;}
 	.swiper-slide .subject br{display:block;}
 	.swiper-slide .summery span{display:block;padding-left:0;margin-left:0}
 	.swiper-slide .summery span:before{display:none;}
-
 
 	/* CONTACT */
 	.contact_page {padding:4% 0; line-height:20px; font-size:12px}
@@ -196,8 +200,6 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 /** 400px 시작 **/
 @media (max-width:400px) {	
 	
-	.skill_txt .inner{margin-bottom:30px}
-
 	.swiper-slide .subject {padding:20px 0 5px;font-size:12px;}
 	.swiper-slide .summery span{font-size:11px;}	
 

@@ -6,7 +6,7 @@
 
 /* RESET */
 *{box-sizing:border-box;}
-html{font-family:'Noto Sans KR', 'Poppins', "나눔고딕", NanumGothic, "Nanum Gothic","돋움", Dotum, Arial, sans-serif;box-sizing:border-box;font-size:14px;color:#666;letter-spacing:-0.03em;}
+html{font-family:'Noto Sans KR', 'Poppins', "나눔고딕", NanumGothic, "Nanum Gothic","돋움", Dotum, Arial, sans-serif;box-sizing:border-box;font-size:14px;color:#666; line-height:1.8}
 html, body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, span, form, fieldset, input, select, label, textarea, caption, table, thead, tfoot, tbody, tr, th, td, figure{margin:0;padding:0;font-weight:normal;}
 address,em{font-stretch:normal;font-style:normal;}
 b, span, strong, input, select, button{font-weight:normal;font-size:inherit;font-family:"Noto Sans KR";color:inherit;line-height:inherit;}
@@ -39,8 +39,6 @@ caption{overflow:hidden;position:absolute;left:-9999em;width:1px;height:1px;marg
 button{margin:0;padding:0;border:none;background:none;cursor:pointer;display:inline-block;}
 .hide{width:1px;height:1px;line-height:1;font-size:1px;position:absolute;left:-9999px;overflow:hidden;text-indent:-9999px;}
 .clear{clear:both;}
-.fl_left{float:left;}
-.fl_right{float:right;}
 .clearfix{*zoom:1;}
 .clearfix:after{clear:both;display:block;content:"";}
 .img-responsive{display:block;width:100% \9;max-width:100%;height:auto;margin:0 auto;}
