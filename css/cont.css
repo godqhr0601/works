@@ -79,8 +79,8 @@ h3{display:block; color:#fff; font-size:20px; font-weight:500; margin-bottom:10p
 .skill_txt h3{font-size:26px; font-weight:600; margin-bottom:20px; font-family:'Poppins', sans-serif;}
 .skill_txt .inner{position: relative; min-height:64px; margin-bottom:20px}
 .skill_txt .inner img{position:absolute; width:50px;vertical-align:middle;}
-.skill_txt .inner p{font-size: 12px; color: #fff; display: inline-block; margin-left:84px;}
-
+.skill_txt .inner p{font-size: 12px; color: #fff; display: inline-block; margin:0 84px;}
+.skill_txt .inner p strong{position:absolute; right:0; font-family:'Poppins', sans-serif; font-size:15px; top:25px}
 progress{margin-left:84px; height: 10px; width:calc(100% - 84px); display: inline-block; border: none;}
 /* IE10 */
 progress {color:#d70707;}
@@ -130,8 +130,9 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 	.about_page{padding:15% 5% 0;}
 	.about_page .about_img{width:300px;}
 
-	.skill_bg {width:30%;}
-	.skill_txt {padding:10% 5% 0 35%;}
+	.skill_bg {width:40%;}
+	.skill_txt {padding:10% 5% 0 45%;}
+	.skill_txt .inner p span{display:none;}
 
 	.work_page{padding:10% 5% 0;}
 
@@ -154,11 +155,11 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 	.header ul li a{font-size:15px;letter-spacing:0px;}
 	
 	/* INTRO */
-	.m_slogan{top:35%;}
+	.m_slogan{top:28%;}
 	.m_slogan h3{font-size:45px;font-weight:500;margin:0 0 20px;}
 	.m_slogan h3 span{display:block;}
-	.m_slogan p{position:relative;font-size:16px;}
-	.m_slogan p span{font-size:15px;padding-top:5px;}
+	.m_slogan p{position:relative;font-size:16px; line-height:20px}
+	.m_slogan p span{font-size:15px;padding-top:5px; line-height:20px}
 	.m_slogan p br{display:block;}
 
 	/* TITLE */
@@ -173,13 +174,14 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 	.about_page .about_txt p{font-size:12px;}
 
 	/*  SKILL  */
-	.skill_bg {width:0%;}
-	.skill_txt {padding:80px 5% 0;}	
+	.skill_bg {width:30%;background:url(../images/skill_bg.jpg) center right;}
+	.skill_txt {padding:80px 5% 0 35%;}	
 	.skill_txt h3{font-size:20px; margin-bottom:15px}
 	.skill_txt .inner {min-height:57px;}
 	.skill_txt .inner img{width:45px;}
-	.skill_txt .inner p{font-size: 11px; margin:5px 0 0 60px;}
-	progress{display:none;}
+	.skill_txt .inner p{font-size: 11px; margin:0;}
+	.skill_txt .inner p span{display:none;}
+	progress{margin-left:64px; width:calc(100% - 64px); }
 
 	/* WORK */
 	.work_page{padding:80px 5% 0;}
