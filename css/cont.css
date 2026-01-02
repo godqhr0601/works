@@ -132,7 +132,7 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 
 	.skill_bg {width:40%;}
 	.skill_txt {padding:10% 5% 0 45%;}
-	.skill_txt .inner p span{display:none;}
+	
 
 	.work_page{padding:10% 5% 0;}
 
@@ -180,6 +180,7 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 	.skill_txt .inner {min-height:57px;}
 	.skill_txt .inner img{width:45px;}
 	.skill_txt .inner p{font-size: 11px; margin:0;}
+	.skill_txt .inner p span{display:none;}
 	progress{margin-left:64px; width:calc(100% - 64px); }
 
 	/* WORK */
@@ -208,6 +209,7 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 
 }
 /** 400px 끝 **/
+
 
 
 
